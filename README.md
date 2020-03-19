@@ -1,1 +1,3 @@
-This is an exercise inspired by...
+This is an exercise inspired  Codropsss.
+
+Parallax to follow.
