@@ -1,0 +1,126 @@
+.poster {
+    background: radial-gradient(50% 800% at 87% 50%, rgba(154, 222, 252, 0.9) 0%, rgba(54, 169, 200, 0.9) 100%), #49B8D6;
+    color: #FFF;
+    height: 100%;
+    min-height: 120vh;
+}
+
+
+.grid-container {
+  margin: 0 auto;
+  padding: 0 10%;
+  max-width: 65rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  position: relative;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.big-bg {
+    background-image: url("collage-bg.jpg");
+    display: block;
+    width: 100%;
+}
+
+.grid-item {
+
+}
+
+.grid-item-bg {
+    grid-column: 2 / span 9;
+    z-index: 0;
+    grid-row: 1/ -1;
+}
+
+.grid-portrait-head {
+  grid-column: 6 / span 6;
+  z-index: 2;
+  grid-row: 1 / -1;
+  clip-path: polygon(50% 0%, 66% 14%, 0 29%, 0 23%, 13% 21%, 0 20%, 0 0);
+}
+
+.half-face {
+    margin-top: 2rem;
+    margin-left: 1.7rem;
+    width: 62%;
+
+}
+
+.right-half {
+    grid-column: 1 / span 9;
+    z-index: 3;
+    grid-row: 1/ -1;
+    clip-path: polygon(54% 35%, 63% 43%, 44% 65%, 15% 56%, 2% 34%, 20% 20%, 34% 33%);
+}
+
+.right-bod {
+    margin-top: -.2rem;
+    margin-left: 2.2rem
+}
+
+.right-eye {
+    grid-column: 2 / span 9;
+    z-index: 3;
+    grid-row: 1/ -1;
+    clip-path: polygon(37% 18%, 45% 27%, 51% 19%);
+}
+
+.eyeball {
+    margin-left: -2;
+
+}
+
+
+.blu-bod {
+    grid-column: 1 / span 9;
+    z-index: 2;
+    grid-row: 1/ -1;
+    clip-path: polygon(76% 33%, 85% 78%, 74% 89%, 24% 88%, 21% 64%);
+}
+
+.main-bod {
+    margin-left: 3rem
+}
+
+.flower-head {
+    grid-column: 4 / span 3;
+    z-index: 1;
+    grid-row: 2/ -1;
+
+}
+
+.flowers {
+    margin-left: 4rem;
+}
+
+.flower-bod {
+    grid-column: 1 / span 5;
+    z-index: 2;
+    grid-row: 4/ -1;
+
+}
+
+.flowers-2 {
+    margin-left: 4rem;
+    margin-top: -2rem;
+}
+
+.flower-torso {
+    grid-column: 4 / span 6;
+    z-index: 1;
+    grid-row: 4/ -1;
+
+}
+
+.flowers-3 {
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
